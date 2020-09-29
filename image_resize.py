@@ -12,12 +12,12 @@ def resize_image(image_path,output_folder,resize):
     outpath = os.path.join(output_folder, base_name)
     img = Image.open(image_path)
     img = img.resize(
-        (resize[1],resize[0]),resample=Image.BILINEAR
+        (resize[1], resize[0]), resample=Image.BILINEAR
     )
     img.save(outpath)
 
 path_dir = '/dkube/users/rishav09/dataset/Aeon/Mod_AEON_data'
-output_folder = '/dkube/users/rishav09/dataset/ResizedData'
+output_folder = '/dkube/output'
 images = glob.glob(os.path.join(path_dir,'*.JPG'))
 
 
