@@ -16,8 +16,8 @@ def resize_image(image_path,output_folder,resize):
     )
     img.save(outpath)
 
-path_dir = '/dkube/users/rishav09/dataset/Aeon/'
-output_folder = '/dkube/users/rishav09/dataset/NewResizedDataset'
+path_dir = '/dkube/users/rishav09/input'
+output_folder = '/dkube/users/rishav09/output'
 images = glob.glob(os.path.join(path_dir,'*.JPG'))
 
 
