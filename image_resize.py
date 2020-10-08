@@ -32,5 +32,5 @@
 # )
 
 import pandas as pd
-df = df = pd.read_csv("/opt/dkube/newinput/Final_Input_With_normalized_labels.csv", engine="python")
+df = df = pd.read_csv("opt/dkube/newinput/Final_Input_With_normalized_labels.csv", engine="python")
 df
